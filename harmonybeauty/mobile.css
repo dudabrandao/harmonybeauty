@@ -1,0 +1,99 @@
+@media (max-width: 700px) {
+   .some {
+        display: none !important;
+   }
+
+   .header-carrinho{
+    display: flex;
+   }
+
+   .diminui{
+    width: 200px;
+   }
+}
+
+@media (max-width: 540px) {
+    #main-carrinho .carrinho{
+        grid-template-rows: 1fr;
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 320px) {
+    #main-carrinho .partedecima{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .texto{
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 853px) {
+    .brasil {
+        display: none;
+    }
+
+    header.dicas figure img {
+        width: 180px;
+    }
+    
+    header.dicas{
+        grid-template-columns: 1fr;
+    }
+
+    header.dicas figure {
+        text-align: center;
+    }
+
+    header .nav-dicas {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 569px) {
+    main .imagem-dicas  img{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:460px) {
+    header .nav-dicas {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:519px) {
+    header .nav-dicas{
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width:539px) {
+    header .nav-dicas a {
+    font-size: 16px;
+  }
+}
+
+
+
+
+@media (max-width:613px) {
+    #main-quemsomos .conheca .escrita{
+    display: block;
+    }
+    
+}
+
+@media (max-width: 1000px){
+    #main-quemsomos .pessoas{
+        display: block;
+    }
+}
